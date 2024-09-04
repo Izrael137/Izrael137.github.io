@@ -1,0 +1,83 @@
+/* Default styles for the browser */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    width: 100vw;
+    height: 45px;
+    font-size: 14px;
+    border-bottom: solid 1px rgba(16, 16, 16, 0.1);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header .inner{
+    width: 1300px; /* This is the inner width of the content inside of your header (80%, etc) */
+    height: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+header .title{
+    color: black;
+    display: table;
+    height: 100%;
+    float: left;
+
+}
+
+header .title div{
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+header .title img{
+    height: 14px;
+    margin-top: 5px; /* Optical alignment of the logo */
+}
+
+.logo_container h2 span {
+    color: gray;
+    font-weight: 400;
+}
+
+header nav{
+    float: left;
+    height: 100%;
+}
+
+header nav li{
+    display: table;
+    height: 100%;
+    float: left;
+    margin-left: 45px;
+}
+
+header nav li:last-of-type{
+    margin-right: 0;
+}
+
+header nav span {
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+header nav a{
+    color: gray;
+}
+
+header nav .button{
+    background-color: #1ab26b; /* This HEX is the color of the button */
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+header nav .button:hover{
+    filter: brightness(1.05);
+}
