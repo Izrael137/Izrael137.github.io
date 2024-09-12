@@ -18,6 +18,10 @@ h1 {
     font-weight: 400;
 }
 
+.title {
+    text-align: center;
+}
+
 img {
     height: 100px;
     width: 100px;
